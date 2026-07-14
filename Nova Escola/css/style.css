@@ -1,0 +1,137 @@
+html{
+    font-size: clamp(1rem,calc(0.5rem + 2vw), 1.625rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.green{
+    background-color: #96bb7c;
+    color: white;
+    padding: 0.6vw 1.5vw;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+}
+header{
+    background-color: #fff2f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 7vw;
+}
+header nav ul{
+    display: flex;
+    gap: 16px;
+    font-size: 0.8rem;
+}
+header h1{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+section.inicio{
+    background-color: #fff2f3;
+    padding: 0 10vw 0 10vw;
+    display: flex;
+}
+section.inicio h3{
+    color: #96bb7c;
+    font-size: 0.7rem;
+    margin: 8vw 1vw 2vw 1vw;
+}
+section.inicio h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0 1vw 0 1vw;
+}
+section.inicio p{
+    color: #96bb7c;
+    font-size: 0.7rem;
+    margin: 1.6vw 1vw 5vw 1vw;
+}
+section.inicio a.branco{
+    color: #96bb7c;
+    padding: 0.6vw 1.1vw;
+    border-radius: 4px;
+    border: 1.5px solid ;
+    margin-left: 4px;
+}
+
+
+section.alunos{
+    padding: 0 10vw 0 10vw;
+}
+section.alunos h3{
+    color: #96bb7c;
+    font-size: 0.7rem;
+    padding: 8vw 0 1vw 0;
+}
+section.alunos h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0 0 1vw 0;
+}
+section.alunos > p{
+    font-size: 0.7rem;
+    color: gray;
+    padding: 0  0 10vw 0;
+}
+section.alunos ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+section.alunos ul li{
+    text-align: center;
+    background-color: #d5e9c7;
+    padding: 0 0 1vw 0;
+}
+section.alunos ul li h4{
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 1.7vw 0 0.2vw 0;
+}
+section.alunos ul li p{
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: gray;
+    padding: 0.7vw 0 0 0;
+}
+section.prerodape{
+    background-color: #fff2f3;
+    margin: 10vw 0 0 0;
+}
+section.prerodape ul li{
+    text-align: center;
+}
+section.prerodape ul li h4{
+    color: #96bb7c;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 7vw 0 0 0;
+}
+section.prerodape ul li h1{
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 0.8vw 0 0 0;
+}
+section.prerodape ul li p{
+    color: gray;
+    font-weight: 500;
+    font-size: 0.6rem;
+    padding: 0.8vw 0 10vw 0;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5vw 0 0.5vw;
+}
+footer ul li p{
+    padding: 4vw 2vw 2vw 5vw;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: gray;
+}
+footer div{
+    display: flex;
+    padding: 4vw 5vw 2vw 2vw;
+    gap: 1vw;
+}
